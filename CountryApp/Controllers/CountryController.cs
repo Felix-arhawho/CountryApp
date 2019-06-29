@@ -19,7 +19,7 @@ namespace CountryApp.Controllers
         }
 
         // GET api/values
-        public IEnumerable<Country> Get()
+        public List<Country> Get()
         {
             return db.Countries.ToList();
         }

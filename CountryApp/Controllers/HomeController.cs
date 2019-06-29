@@ -15,6 +15,11 @@ namespace CountryApp.Controllers
             return View();
         }
 
+        public ActionResult Contact()
+        {
+            return View();
+        }
+
         public ActionResult Create()
         {
             return View();
